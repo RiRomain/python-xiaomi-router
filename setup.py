@@ -9,7 +9,7 @@ setup(
     author='RiTomain',
     author_email='romain.rinie@googlemail.com',
     packages=['xiaomirouter', 'xiaomirouter.client', 'xiaomirouter.status'],
-    install_requires=['requests', ],
+    install_requires=['requests', 'httpretty', ],
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
