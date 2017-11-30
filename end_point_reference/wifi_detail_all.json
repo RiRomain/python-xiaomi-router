@@ -1,0 +1,55 @@
+{
+  "bsd": 0,
+  "info": [
+    {
+      "ifname": "wl1",
+      "ssid": "MyWifiSSID",
+      "encryption": "mixed-psk",
+      "device": "mt7620.network1",
+      "hidden": "0",
+      "password": "MyPassword",
+      "bandwidth": "40",
+      "txpwr": "max",
+      "channel": "13",
+      "status": "1",
+      "mode": "Master",
+      "channelInfo": {
+        "bandwidth": "40",
+        "bandList": [
+          "20",
+          "40"
+        ],
+        "channel": 13
+      },
+      "signal": -36
+    },
+    {
+      "ifname": "wl0",
+      "ssid": "MyWifiSSID_5G",
+      "encryption": "mixed-psk",
+      "device": "mt7612.network1",
+      "hidden": "0",
+      "password": "MyPassword",
+      "bandwidth": "0",
+      "txpwr": "max",
+      "channel": "0",
+      "status": "1",
+      "mode": "Master",
+      "channelInfo": {
+        "bandwidth": "0",
+        "bandList": [],
+        "channel": 161
+      },
+      "signal": -45
+    },
+    {
+      "password": "MyPassword",
+      "ifname": "wl3",
+      "ssid": "MyPublicAccessPointSSID",
+      "encryption": "none",
+      "status": 0,
+      "enabled": "1"
+    }
+  ],
+  "code": 0
+}

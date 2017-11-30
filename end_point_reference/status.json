@@ -1,0 +1,61 @@
+{
+  "dev": [
+    {
+      "mac": "AA:BB:CC:DD:EE:FF",
+      "maxdownloadspeed": "1065343",
+      "upload": "53608137",
+      "upspeed": "0",
+      "downspeed": "0",
+      "online": "47152",
+      "devname": "Chromecast",
+      "maxuploadspeed": "125285",
+      "download": "544424418"
+    },
+    {
+      "mac": "AA:BB:CC:DD:EE:FF",
+      "maxdownloadspeed": "4771365",
+      "upload": "13778218",
+      "upspeed": "0",
+      "downspeed": "0",
+      "online": "47127",
+      "devname": "Samsung55TvWlan",
+      "maxuploadspeed": "125465",
+      "download": "532698991"
+    }
+  ],
+  "code": 0,
+  "mem": {
+    "usage": 0.35,
+    "total": "128 M",
+    "hz": "800MHz",
+    "type": "DDR2"
+  },
+  "temperature": 0,
+  "count": {
+    "all": 89,
+    "online": 8
+  },
+  "hardware": {
+    "mac": "AA:BB:CC:DD:EE:FF",
+    "platform": "R1CM",
+    "version": "2.8.91",
+    "channel": "release",
+    "sn": "12345/00012345"
+  },
+  "upTime": "47234.28",
+  "cpu": {
+    "core": 1,
+    "hz": "580MHz",
+    "load": 0.251
+  },
+  "wan": {
+    "downspeed": "905",
+    "maxdownloadspeed": "12351261",
+    "history": "142,174,24,490,783,129,832,1569,106,24,338,104,948,6439,593,3858,168,99,1424,7714,752,240,454,150,49,404,188,978,795,130,829,663,173,3283,189,963,3744,343,301,79,370,340,505,257,1002,99,468,2836,4441,2290",
+    "devname": "eth0.2",
+    "upload": "884819389",
+    "upspeed": "1385",
+    "maxuploadspeed": "1136371",
+    "download": "6716490341"
+  }
+}
