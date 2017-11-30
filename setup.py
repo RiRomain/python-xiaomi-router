@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='xiaomi-router',
-    version='1.0.0',
+    version='0.0.1',
     description='Deliver info from Xiaomi Router products.',
     url='https://github.com/RiRomain/python-xiaomi-router/',
     license='MIT',
@@ -14,7 +14,7 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
-        'Development Status :: 1 - Beta',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers'
     ]
 )
