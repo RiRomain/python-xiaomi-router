@@ -35,6 +35,8 @@ class XiaomiRouter(object):
         """Get the device list."""
         device_list \
             = self._retrieve_json_from_endpoint('api/misystem/devicelist')
+        if device_list is None:
+            return
         clients = []
         for device_entry in device_list['list']:
             clients.append(create_client_from_json(device_entry))
@@ -50,14 +52,14 @@ class XiaomiRouter(object):
     def is_successfully_initialised(self):
         return self._success_init
 
-    def _reconnect(self):
+    def reconnect(self):
         if self._init_token():
             return
         time.sleep(RECONNECT_TIME)
 
     def _keep_alive(self):
         if not self._success_init:
-            self._reconnect()
+            self.reconnect()
 
     def _init_token(self):
         """Get authentication token for the given host+username+password."""
